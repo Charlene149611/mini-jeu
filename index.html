@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Jeu du Nombre Aléatoire</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel=favicon href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini jeu=Devine le nombre</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel=favicon href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <h1>Jeu du nombre aléatoire</h1>
-  <script src="script.js"></script>
-</body>
+
+    <h1>Jeu : Devine le nombre</h1>
+    <p>Devine un nombre entre 1 et 100 :</p>
+  
+    <input type="number" id="guess">
+    <button onclick="deviner()">Deviner</button>
+  
+    <p id="resultat"></p>
+  
+  </body>
+<script src="script.js"></script>
 </html>
